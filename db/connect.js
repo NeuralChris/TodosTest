@@ -1,5 +1,5 @@
 import Mongoose from 'mongoose';
-import config from '../core/config/config.dev'
+import config from '../config/config.dev';
 
 Mongoose.Promise = global.Promise;
 

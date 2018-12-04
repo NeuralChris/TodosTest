@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import keyConfig from '../core/config/keys.config';
+import keyConfig from '../config/keys.config';
 
 const TodoSchema = mongoose.Schema({
     key: {
